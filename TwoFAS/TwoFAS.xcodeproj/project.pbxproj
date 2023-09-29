@@ -830,6 +830,9 @@
 		C2C56D4627C98AA3003B4C43 /* ComposeServiceAdvancedSummaryModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C56D4527C98AA3003B4C43 /* ComposeServiceAdvancedSummaryModuleInteractor.swift */; };
 		C2C56D4827C98C3C003B4C43 /* HOTPDefaultValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C56D4727C98C3C003B4C43 /* HOTPDefaultValue.swift */; };
 		C2C56D4A27C99314003B4C43 /* ComposeServiceAdvancedSummaryFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C56D4927C99314003B4C43 /* ComposeServiceAdvancedSummaryFlowController.swift */; };
+		C2C5C2712AC6E92700B4FB51 /* ServiceDefinitionDatabaseImpl+Database0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C2702AC6E92700B4FB51 /* ServiceDefinitionDatabaseImpl+Database0.swift */; };
+		C2C5C2732AC6EA8400B4FB51 /* ServiceDefinitionDatabaseImpl+Database1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C2722AC6EA8400B4FB51 /* ServiceDefinitionDatabaseImpl+Database1.swift */; };
+		C2C5C2752AC6ED0600B4FB51 /* ServiceDefinitionDatabaseImpl+Database2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C2742AC6ED0600B4FB51 /* ServiceDefinitionDatabaseImpl+Database2.swift */; };
 		C2C66F8E1FE0684100AD5A1C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C66F8D1FE0684100AD5A1C /* MainViewController.swift */; };
 		C2C66F951FE068CC00AD5A1C /* TokensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C66F941FE068CC00AD5A1C /* TokensViewController.swift */; };
 		C2C66F9B1FE06A4500AD5A1C /* GridViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C66F9A1FE06A4500AD5A1C /* GridViewModelDelegate.swift */; };
@@ -2174,6 +2177,9 @@
 		C2C56D4527C98AA3003B4C43 /* ComposeServiceAdvancedSummaryModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeServiceAdvancedSummaryModuleInteractor.swift; sourceTree = "<group>"; };
 		C2C56D4727C98C3C003B4C43 /* HOTPDefaultValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOTPDefaultValue.swift; sourceTree = "<group>"; };
 		C2C56D4927C99314003B4C43 /* ComposeServiceAdvancedSummaryFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeServiceAdvancedSummaryFlowController.swift; sourceTree = "<group>"; };
+		C2C5C2702AC6E92700B4FB51 /* ServiceDefinitionDatabaseImpl+Database0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database0.swift"; sourceTree = "<group>"; };
+		C2C5C2722AC6EA8400B4FB51 /* ServiceDefinitionDatabaseImpl+Database1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database1.swift"; sourceTree = "<group>"; };
+		C2C5C2742AC6ED0600B4FB51 /* ServiceDefinitionDatabaseImpl+Database2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database2.swift"; sourceTree = "<group>"; };
 		C2C66F8D1FE0684100AD5A1C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C2C66F941FE068CC00AD5A1C /* TokensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensViewController.swift; sourceTree = "<group>"; };
 		C2C66F9A1FE06A4500AD5A1C /* GridViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModelDelegate.swift; sourceTree = "<group>"; };
@@ -5209,6 +5215,9 @@
 				C2AB25D028E069B8001CF6B3 /* ServiceDefinition.swift */,
 				C23B5D6528F229CC00FC6364 /* ServiceMatchRules+.swift */,
 				C2AB25D428E06FE5001CF6B3 /* ServiceDefinitionDatabaseImpl+Database.swift */,
+				C2C5C2702AC6E92700B4FB51 /* ServiceDefinitionDatabaseImpl+Database0.swift */,
+				C2C5C2722AC6EA8400B4FB51 /* ServiceDefinitionDatabaseImpl+Database1.swift */,
+				C2C5C2742AC6ED0600B4FB51 /* ServiceDefinitionDatabaseImpl+Database2.swift */,
 				C22EEB5D28EA07C7008C0118 /* ServiceDefinition+.swift */,
 				C27ABD34277A6A8D00AE073B /* GlobalTypes */,
 				C2727D522781FE3F00B8FA03 /* ServiceIconDefinition.swift */,
@@ -7112,7 +7121,6 @@
 				C23666711FB2644900989ACA /* Resources */,
 				C200E4941FB38E8E00D7C748 /* Embed Frameworks */,
 				C28633DD1FFABD2200C8F4B4 /* Embed Foundation Extensions */,
-				C2035D422938143C00B94834 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -7646,28 +7654,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C2035D422938143C00B94834 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C200E4951FB3911B00D7C748 /* Sources */ = {
@@ -8561,6 +8547,7 @@
 				C28665BE261A6E75003F1835 /* CoreDataMigrationVersion.swift in Sources */,
 				C2794BA92774C86600301F1A /* TransformValue.swift in Sources */,
 				C22EEB6228EA1EFE008C0118 /* LegacyServiceDatabase.swift in Sources */,
+				C2C5C2712AC6E92700B4FB51 /* ServiceDefinitionDatabaseImpl+Database0.swift in Sources */,
 				C28665A0261A6D93003F1835 /* CoreDataMigrator.swift in Sources */,
 				C20B94DA281C859A008FA230 /* PushNotificationsConfig.swift in Sources */,
 				C2727D532781FE3F00B8FA03 /* ServiceIconDefinition.swift in Sources */,
@@ -8600,11 +8587,13 @@
 				C2D07EE826A468D000AF8E7B /* LabelImageRenderer.swift in Sources */,
 				C2D39DE128232BC900E864E9 /* ListNewsEntry.swift in Sources */,
 				C2B90F12281EFF75004B8AEC /* SpinnerDisplaying.swift in Sources */,
+				C2C5C2732AC6EA8400B4FB51 /* ServiceDefinitionDatabaseImpl+Database1.swift in Sources */,
 				C24FE2DD2945473C0006EFF0 /* Notifications+.swift in Sources */,
 				C2B90F13281EFF79004B8AEC /* SpinnerBackground.swift in Sources */,
 				C2CF16A52AB6506F00E2D7FF /* LabelShapes.swift in Sources */,
 				C2DBE59B243A512E00E96242 /* RefreshTimer.swift in Sources */,
 				C208101D2794A5940035E339 /* Data+.swift in Sources */,
+				C2C5C2752AC6ED0600B4FB51 /* ServiceDefinitionDatabaseImpl+Database2.swift in Sources */,
 				C20810192794A2AC0035E339 /* MF_Base32Additions.m in Sources */,
 				C28665AF261A6E0A003F1835 /* CoreDataMigrationStep.swift in Sources */,
 				C27E6FAA28FC249300AC9FD1 /* EncryptionHolder.swift in Sources */,
